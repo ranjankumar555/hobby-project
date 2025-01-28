@@ -1,5 +1,4 @@
-# hobby-project
-A collection of project using c/c++ 
+# hobby-project 
 
 # File Handling in C - Exploring Commands Implemented Using File Handling Concepts
 
