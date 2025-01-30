@@ -1,4 +1,4 @@
-# hobby-project 
+# Hobby-Project 
 
 # File Handling in C - Exploring Commands Implemented Using File Handling Concepts
 
@@ -22,8 +22,8 @@ This project is a hands-on exploration of advanced file handling concepts in C b
 
 | **Command** | **Description**                           | **C Implementation Idea** |
 |-------------|-------------------------------------------|---------------------------|
-| `cat`       | Display the contents of a file.           | Use `fopen()`, `fgetc()`, or `fgets()` to read and display file contents. |
-| `cp`        | Copy files.                               | Use `fopen()` for reading, `fwrite()` for writing. |
+| [`cat`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/cat)       | Display the contents of a file.           | Use `fopen()`, `fgetc()`, or `fgets()` to read and display file contents. |
+| [`cp`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/cp)        | Copy files.                               | Use `fopen()` for reading, `fwrite()` for writing. |
 | `mv`        | Move or rename files.                     | Use `rename()` for renaming or combine `cp` and `remove()`. |
 | `rm`        | Delete a file.                            | Use `remove()` to delete files. |
 | `touch`     | Create an empty file or update its timestamp. | Use `fopen()` with `"w"` mode to create or truncate a file. |
@@ -114,13 +114,13 @@ This project is a hands-on exploration of advanced file handling concepts in C b
 |-------------------|---------------------------------------|-----------------|-------------|---------------|
 | `cat`             | Display file content                  | ✅ Implemented  | ✅ Done     | ✅ Completed   |
 | `cp`              | Copy files                            | ✅ Implemented  | ✅ Done     | ✅ Completed   |
-| `mv`              | Move/rename files                     | 🚧 In Progress  | ❌ Pending  | ❌ Pending     |
+| `mv`              | Move/rename files                     | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `rm`              | Remove files                          | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `touch`           | Create or modify file timestamp       | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `mkdir`           | Create a directory                    | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `rmdir`           | Remove an empty directory             | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `ls`              | List directory contents               | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `grep`            | Search for patterns in files          | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
+| `grep`            | Search for patterns in files          | 🚧 In Progress  | ❌ Pending  | ❌ Pending     |
 | `wc`              | Word, line, char count                | ❌ Not Started  | ❌ Pending  | ❌ Pending   |
 | `head`            | Display the first few lines of a file | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `tail`            | Display the last few lines of a file  | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
