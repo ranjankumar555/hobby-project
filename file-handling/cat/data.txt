@@ -1,0 +1,10 @@
+//data.txt
+In this program, cat command are implemented to know its internal working.
+fgetc() function used to read the given file character by character and then print it on the screen.
+
+protoype:
+		size_t fgetc(FILE* STREAM);
+
+Return type:
+		On success: return integer cast to an unsigned char.
+		On failure: EOF (or) -1.
