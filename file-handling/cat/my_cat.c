@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main(int argc, char** argv){
-	if(argc != 3){
+	if(argc != 2){
 		printf("USAGE: cat <fileName>\n");
 		return 1;
 	}
 
-	FILE* fp = fopen(argv[2], "r");
+	FILE* fp = fopen(argv[1], "r");
 	
 	// check if file is present or not
 	if(fp==NULL){
