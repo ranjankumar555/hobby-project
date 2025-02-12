@@ -1,7 +1,7 @@
 # Custom String Library in C
 
 ## Overview
-This project is a user-defined string library implemented in C. It replicates commonly used functions from `<string.h>` and introduces additional utility functions for string manipulation. The goal of this project is to enhance understanding of C programming and string handling while providing a useful learning resource for others.
+This project is a user-defined string library implemented in C. It replicates commonly used functions from `<string.h>` and introduces additional utility functions for string manipulation. The goal of this project is to enhance understanding of C programming and string handling.
 
 ## Features
 - Implementation of common string functions from `<string.h>`
