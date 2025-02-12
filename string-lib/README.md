@@ -9,6 +9,28 @@ This project is a user-defined string library implemented in C. It replicates co
 - Well-structured code with comments for easy understanding
 - Fully tested with examples and test cases
 
+## Progress Tracker
+
+| No. | Task | Status |
+|----|------|--------|
+| 1 | Implement `my_strlen` | ✅ Completed |
+| 2 | Implement `my_strcpy` | ✅ Completed |
+| 3 | Implement `my_strncpy` | ✅ Completed |
+| 4 | Implement `my_strcat` | ✅ Completed |
+| 5 | Implement `my_strncat` | ✅ Completed |
+| 6 | Implement `my_strcmp` | ✅ Completed |
+| 7 | Implement `my_strncmp` | ✅ Completed |
+| 8 | Implement `my_strchr` | ✅ Completed |
+| 9 | Implement `my_strrchr` | ✅ Completed |
+| 10 | Implement `my_strstr` | ✅ Completed |
+| 11 | Implement `my_strspn` | ✅ Completed |
+| 12 | Implement `my_strcspn` | ✅ Completed |
+| 13 | Implement `my_strrev` | ✅ Completed |
+| 14 | Implement `my_strupper` | ✅ Completed |
+| 15 | Implement `my_strlower` | ✅ Completed |
+| 16 | Implement `my_strtrim` | ✅ Completed |
+| 17 | Implement `my_strsplit` | ⏳ In Progress |
+
 ## Implemented Functions
 ### Standard Functions
 
@@ -31,11 +53,11 @@ This project is a user-defined string library implemented in C. It replicates co
 
 | No. | Function | Description |
 |----|----------|-------------|
-| 13 | `char *my_strrev(char *str);` | Reverses a string |
-| 14 | `char *my_strupper(char *str);` | Converts a string to uppercase |
-| 15 | `char *my_strlower(char *str);` | Converts a string to lowercase |
-| 16 | `char *my_strtrim(char *str);` | Removes leading and trailing spaces |
-| 17 | `char **my_strsplit(const char *str, char delimiter, int *count);` | Splits a string into an array of substrings |
+| 1 | `char *my_strrev(char *str);` | Reverses a string |
+| 2 | `char *my_strupper(char *str);` | Converts a string to uppercase |
+| 3 | `char *my_strlower(char *str);` | Converts a string to lowercase |
+| 4 | `char *my_strtrim(char *str);` | Removes leading and trailing spaces |
+| 5 | `char **my_strsplit(const char *str, char delimiter, int *count);` | Splits a string into an array of substrings |
 
 ## Compilation and Usage
 To compile and use the library:
