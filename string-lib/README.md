@@ -13,8 +13,8 @@ This project is a user-defined string library implemented in C. It replicates co
 
 | No. | Task | Status |
 |----|------|--------|
-| 1 | Implement `my_strlen` | 🚧 In Progress |
-| 2 | Implement `my_strcpy` | ❌ Not Started |
+| 1 | Implement `my_strlen` | ✅ Completed |
+| 2 | Implement `my_strcpy` | 🚧 In Progress |
 | 3 | Implement `my_strncpy` | ❌ Not Started |
 | 4 | Implement `my_strcat` | ❌ Not Started |
 | 5 | Implement `my_strncat` | ❌ Not Started |
