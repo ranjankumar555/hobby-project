@@ -1,7 +1,7 @@
 # Custom String Library in C
 
 ## Overview
-This project is a user-defined string library implemented in C. It replicates commonly used functions from `<string.h>` and introduces additional utility functions for string manipulation. The goal of this project is to enhance understanding of C programming and string handling while providing a useful learning resource for others.
+This project is a user-defined string library implemented in C. It replicates commonly used functions from `<string.h>` and introduces additional utility functions for string manipulation. The goal of this project is to enhance understanding of C programming and string handling.
 
 ## Features
 - Implementation of common string functions from `<string.h>`
@@ -13,23 +13,23 @@ This project is a user-defined string library implemented in C. It replicates co
 
 | No. | Task | Status |
 |----|------|--------|
-| 1 | Implement `my_strlen` | ✅ Completed |
-| 2 | Implement `my_strcpy` | ✅ Completed |
-| 3 | Implement `my_strncpy` | ✅ Completed |
-| 4 | Implement `my_strcat` | ✅ Completed |
-| 5 | Implement `my_strncat` | ✅ Completed |
-| 6 | Implement `my_strcmp` | ✅ Completed |
-| 7 | Implement `my_strncmp` | ✅ Completed |
-| 8 | Implement `my_strchr` | ✅ Completed |
-| 9 | Implement `my_strrchr` | ✅ Completed |
-| 10 | Implement `my_strstr` | ✅ Completed |
-| 11 | Implement `my_strspn` | ✅ Completed |
-| 12 | Implement `my_strcspn` | ✅ Completed |
-| 13 | Implement `my_strrev` | ✅ Completed |
-| 14 | Implement `my_strupper` | ✅ Completed |
-| 15 | Implement `my_strlower` | ✅ Completed |
-| 16 | Implement `my_strtrim` | ✅ Completed |
-| 17 | Implement `my_strsplit` | ⏳ In Progress |
+| 1 | Implement `my_strlen` | 🚧 In Progress |
+| 2 | Implement `my_strcpy` | ❌ Not Started |
+| 3 | Implement `my_strncpy` | ❌ Not Started |
+| 4 | Implement `my_strcat` | ❌ Not Started |
+| 5 | Implement `my_strncat` | ❌ Not Started |
+| 6 | Implement `my_strcmp` | ❌ Not Started |
+| 7 | Implement `my_strncmp` | ❌ Not Started |
+| 8 | Implement `my_strchr` | ❌ Not Started |
+| 9 | Implement `my_strrchr` | ❌ Not Started |
+| 10 | Implement `my_strstr` | ❌ Not Started |
+| 11 | Implement `my_strspn` | ❌ Not Started |
+| 12 | Implement `my_strcspn` | ❌ Not Started |
+| 13 | Implement `my_strrev` | ❌ Not Started |
+| 14 | Implement `my_strupper` | ❌ Not Started |
+| 15 | Implement `my_strlower` | ❌ Not Started |
+| 16 | Implement `my_strtrim` | ❌ Not Started |
+| 17 | Implement `my_strsplit` | ❌ Not Started |
 
 ## Implemented Functions
 ### Standard Functions
