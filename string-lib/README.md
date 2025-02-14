@@ -14,9 +14,9 @@ This project is a user-defined string library implemented in C. It replicates co
 | No. | Task | Status |
 |----|------|--------|
 | 1 | Implement `my_strlen` | ✅ Completed |
-| 2 | Implement `my_strcpy` | 🚧 In Progress |
-| 3 | Implement `my_strncpy` | ❌ Not Started |
-| 4 | Implement `my_strcat` | ❌ Not Started |
+| 2 | Implement `my_strcpy` | ✅ Completed |
+| 3 | Implement `my_strncpy` | ✅ Completed |
+| 4 | Implement `my_strcat` | 🚧 In Progress |
 | 5 | Implement `my_strncat` | ❌ Not Started |
 | 6 | Implement `my_strcmp` | ❌ Not Started |
 | 7 | Implement `my_strncmp` | ❌ Not Started |
