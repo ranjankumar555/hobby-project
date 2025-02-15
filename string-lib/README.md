@@ -18,9 +18,9 @@ This project is a user-defined string library implemented in C. It replicates co
 | 3 | Implement `my_strncpy` | ✅ Completed |
 | 4 | Implement `my_strcat` | ✅ Completed |
 | 5 | Implement `my_strncat` | ✅ Completed |
-| 6 | Implement `my_strcmp` | 🚧 In Progress |
-| 7 | Implement `my_strncmp` | ❌ Not Started |
-| 8 | Implement `my_strchr` | ❌ Not Started |
+| 6 | Implement `my_strcmp` | ✅ Completed |
+| 7 | Implement `my_strncmp` | ✅ Completed |
+| 8 | Implement `my_strchr` | 🚧 In Progress |
 | 9 | Implement `my_strrchr` | ❌ Not Started |
 | 10 | Implement `my_strstr` | ❌ Not Started |
 | 11 | Implement `my_strspn` | ❌ Not Started |
@@ -79,7 +79,7 @@ int main() {
     my_strcpy(str2, str1);
     printf("Copied string: %s\n", str2);
     
-    printf("Length: %zu\n", my_strlen(str1));
+    printf("Length: %u\n", my_strlen(str1));
     return 0;
 }
 ```
