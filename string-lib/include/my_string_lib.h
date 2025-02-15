@@ -9,7 +9,7 @@ void my_strncpy(char*dest, const char* src, unsigned int n);
 void my_strcat(char* str1, const char* str2);
 void my_strncat(char* str1, const char* str2, unsigned int n);
 
-void my_strcmp(const char* str1, const char* str2);
-void my_strncmp(const char* str1, const char* str2, unsigned int n);
+int my_strcmp(const char* str1, const char* str2);
+int my_strncmp(const char* str1, const char* str2, unsigned int n);
 
 #endif
