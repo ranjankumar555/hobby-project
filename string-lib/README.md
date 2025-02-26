@@ -26,8 +26,8 @@ This project is a user-defined string library implemented in C. It replicates co
 | 11 | Implement `my_strspn` | ❌ Not Started |
 | 12 | Implement `my_strcspn` | ❌ Not Started |
 | 13 | Implement `my_strrev` | ❌ Not Started |
-| 14 | Implement `my_strupper` | ❌ Not Started |
-| 15 | Implement `my_strlower` | ❌ Not Started |
+| 14 | Implement `my_strupper` | ✅ Completed |
+| 15 | Implement `my_strlower` | ✅ Completed |
 | 16 | Implement `my_strtrim` | ❌ Not Started |
 | 17 | Implement `my_strsplit` | ❌ Not Started |
 
