@@ -15,4 +15,7 @@ int my_strncmp(const char* str1, const char* str2, unsigned int n);
 const char* my_strchr(const char* str, char ch);
 const char* my_strrchr(const char* str, char ch)
 
+char* my_strupper(char* str);
+char* my_strlower(char* str);
+
 #endif
