@@ -18,4 +18,8 @@ const char* my_strrchr(const char* str, char ch)
 char* my_strupper(char* str);
 char* my_strlower(char* str);
 
+char* my_strrev(char* str);
+void my_strrev1(char* p, int len);
+void my_strrev2(char* p, char* q);
+
 #endif
