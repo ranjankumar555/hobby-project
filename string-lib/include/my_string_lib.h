@@ -22,4 +22,5 @@ char* my_strrev(char* str);
 void my_strrev1(char* p, int len);
 void my_strrev2(char* p, char* q);
 
+char* my_strstr(char* main, char* sub);
 #endif
