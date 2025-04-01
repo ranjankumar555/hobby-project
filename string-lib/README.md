@@ -22,8 +22,8 @@ This project is a user-defined string library implemented in C. It replicates co
 | 7 | Implement `my_strncmp` | ✅ Completed |
 | 8 | Implement `my_strchr` |  ✅ Completed |
 | 9 | Implement `my_strrchr` | ✅ Completed |
-| 10 | Implement `my_strstr` | 🚧 In Progress |
-| 11 | Implement `my_strspn` | ❌ Not Started |
+| 10 | Implement `my_strstr` | ✅ Completed |
+| 11 | Implement `my_strspn` | 🚧 In Progress |
 | 12 | Implement `my_strcspn` | ❌ Not Started |
 | 13 | Implement `my_strrev` | ✅ Completed |
 | 14 | Implement `my_strupper` | ✅ Completed |
