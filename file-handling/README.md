@@ -115,7 +115,7 @@ This project is a hands-on exploration of advanced file handling concepts in C b
 | `mv`              | Move/rename files                     | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `rm`              | Remove files                          | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `touch`           | Create or modify file timestamp       | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `mkdir`           | Create a directory                    | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
+| `mkdir`           | Create a directory                    | ✅ Implemented  | ❌ Pending  | ❌ Pending     |
 | `rmdir`           | Remove an empty directory             | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `ls`              | List directory contents               | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `grep`            | Search for patterns in files          | 🚧 In Progress  | ❌ Pending  | ❌ Pending     |
