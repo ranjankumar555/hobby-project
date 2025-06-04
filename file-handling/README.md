@@ -24,7 +24,7 @@ This project is a hands-on exploration of advanced file handling concepts in C b
 | [`cp`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/cp)        | Copy files.                               | Use `fopen()` for reading, `fwrite()` for writing. |
 | `mv`        | Move or rename files.                     | Use `rename()` for renaming or combine `cp` and `remove()`. |
 | `rm`        | Delete a file.                            | Use `remove()` to delete files. |
-| `touch`     | Create an empty file or update its timestamp. | Use `fopen()` with `"w"` mode to create or truncate a file. |
+| [`touch`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/touch)     | Create an empty file or update its timestamp. | Use `fopen()` with `"w"` mode to create or truncate a file. |
 | [`mkdir`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/mkdir)     | Create a directory.                       | Use `mkdir()` from `<sys/stat.h>`. |
 | `rmdir`     | Remove an empty directory.                | Use `rmdir()` to delete directories. |
 | `ls`        | List files and directories.               | Use `opendir()`, `readdir()`, and `closedir()` from `<dirent.h>`. |
