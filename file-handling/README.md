@@ -113,7 +113,7 @@ This project is a hands-on exploration of advanced file handling concepts in C b
 | `cat`             | Display file content                  | ✅ Implemented  | ✅ Done     | ✅ Completed   |
 | `cp`              | Copy files                            | ✅ Implemented  | ✅ Done     | ✅ Completed   |
 | `mv`              | Move/rename files                     | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `rm`              | Remove files                          | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
+| `rm`              | Remove files                          | ✅ Implemented  | ✅ Done	    | ❌ Pending     |
 | `touch`           | Create or modify file timestamp       | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
 | `mkdir`           | Create a directory                    | ✅ Implemented  | ❌ Pending  | ❌ Pending     |
 | `rmdir`           | Remove an empty directory             | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
