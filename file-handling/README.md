@@ -23,7 +23,7 @@ This project is a hands-on exploration of advanced file handling concepts in C b
 | [`cat`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/cat)       | Display the contents of a file.           | Use `fopen()`, `fgetc()`, or `fgets()` to read and display file contents. |
 | [`cp`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/cp)        | Copy files.                               | Use `fopen()` for reading, `fwrite()` for writing. |
 | `mv`        | Move or rename files.                     | Use `rename()` for renaming or combine `cp` and `remove()`. |
-| `rm`        | Delete a file.                            | Use `remove()` to delete files. |
+| [`rm`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/rm)        | Delete a file.                            | Use `remove()` to delete files. |
 | [`touch`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/touch)     | Create an empty file or update its timestamp. | Use `fopen()` with `"w"` mode to create or truncate a file. |
 | [`mkdir`](https://github.com/ranjankumar555/hobby-project/tree/main/file-handling/mkdir)     | Create a directory.                       | Use `mkdir()` from `<sys/stat.h>`. |
 | `rmdir`     | Remove an empty directory.                | Use `rmdir()` to delete directories. |
@@ -108,41 +108,41 @@ This project is a hands-on exploration of advanced file handling concepts in C b
 
 ## Progress Tracker
 
-| Command Name      | Description                           | Status          | Testing     | Documentation |
-|-------------------|---------------------------------------|-----------------|-------------|---------------|
-| `cat`             | Display file content                  | ✅ Implemented  | ✅ Done     | ✅ Completed   |
-| `cp`              | Copy files                            | ✅ Implemented  | ✅ Done     | ✅ Completed   |
-| `mv`              | Move/rename files                     | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `rm`              | Remove files                          | ✅ Implemented  | ✅ Done	    | ❌ Pending     |
-| `touch`           | Create or modify file timestamp       | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `mkdir`           | Create a directory                    | ✅ Implemented  | ❌ Pending  | ❌ Pending     |
-| `rmdir`           | Remove an empty directory             | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `ls`              | List directory contents               | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `grep`            | Search for patterns in files          | 🚧 In Progress  | ❌ Pending  | ❌ Pending     |
-| `wc`              | Word, line, char count                | ❌ Not Started  | ❌ Pending  | ❌ Pending   |
-| `head`            | Display the first few lines of a file | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `tail`            | Display the last few lines of a file  | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `find`            | Search for files or directories       | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `chmod`           | Change file permissions               | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `chown`           | Change file owner and group           | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `stat`            | Display file metadata                 | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `umask`           | Set default file permission mask      | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `gzip`            | Compress files                        | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `gunzip`          | Decompress files                      | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `tar`             | Archive files                         | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `zip`             | Compress files into `.zip` format     | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `tail -f`         | Monitor file for real-time changes    | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `watch`           | Periodically run a command            | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `inotifywait`     | Watch for file/directory changes      | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `df`              | Display disk usage                    | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `du`              | Display directory size                | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `mount`           | Mount file system                     | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `umount`          | Unmount file system                   | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `tee`             | Read from input and write to outputs  | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `split`           | Split a file into smaller files       | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `diff`            | Compare two files line by line        | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `sort`            | Sort lines in a file                  | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
-| `uniq`            | Remove duplicate lines from a file    | ❌ Not Started  | ❌ Pending  | ❌ Pending     |
+| Command Name      | Description                           | Status          | Testing     |
+|-------------------|---------------------------------------|-----------------|-------------|
+| `cat`             | Display file content                  | ✅ Implemented  | ✅ Done     |
+| `cp`              | Copy files                            | ✅ Implemented  | ✅ Done     |
+| `mv`              | Move/rename files                     | ❌ Not Started  | ❌ Pending  |
+| `rm`              | Remove files                          | ✅ Implemented  | ✅ Done     |
+| `touch`           | Create or modify file timestamp       | ❌ Not Started  | ❌ Pending  | 
+| `mkdir`           | Create a directory                    | ✅ Implemented  | ❌ Pending  |
+| `rmdir`           | Remove an empty directory             | ✅ Implemented  | ✅ Done     |
+| `ls`              | List directory contents               | ❌ Not Started  | ❌ Pending  |
+| `grep`            | Search for patterns in files          | 🚧 In Progress  | ❌ Pending  | 
+| `wc`              | Word, line, char count                | ❌ Not Started  | ❌ Pending  | 
+| `head`            | Display the first few lines of a file | ❌ Not Started  | ❌ Pending  | 
+| `tail`            | Display the last few lines of a file  | ❌ Not Started  | ❌ Pending  | 
+| `find`            | Search for files or directories       | ❌ Not Started  | ❌ Pending  | 
+| `chmod`           | Change file permissions               | ❌ Not Started  | ❌ Pending  | 
+| `chown`           | Change file owner and group           | ❌ Not Started  | ❌ Pending  | 
+| `stat`            | Display file metadata                 | ❌ Not Started  | ❌ Pending  | 
+| `umask`           | Set default file permission mask      | ❌ Not Started  | ❌ Pending  |
+| `gzip`            | Compress files                        | ❌ Not Started  | ❌ Pending  | 
+| `gunzip`          | Decompress files                      | ❌ Not Started  | ❌ Pending  | 
+| `tar`             | Archive files                         | ❌ Not Started  | ❌ Pending  | 
+| `zip`             | Compress files into `.zip` format     | ❌ Not Started  | ❌ Pending  | 
+| `tail -f`         | Monitor file for real-time changes    | ❌ Not Started  | ❌ Pending  | 
+| `watch`           | Periodically run a command            | ❌ Not Started  | ❌ Pending  | 
+| `inotifywait`     | Watch for file/directory changes      | ❌ Not Started  | ❌ Pending  | 
+| `df`              | Display disk usage                    | ❌ Not Started  | ❌ Pending  |
+| `du`              | Display directory size                | ❌ Not Started  | ❌ Pending  | 
+| `mount`           | Mount file system                     | ❌ Not Started  | ❌ Pending  |
+| `umount`          | Unmount file system                   | ❌ Not Started  | ❌ Pending  | 
+| `tee`             | Read from input and write to outputs  | ❌ Not Started  | ❌ Pending  |
+| `split`           | Split a file into smaller files       | ❌ Not Started  | ❌ Pending  |
+| `diff`            | Compare two files line by line        | ❌ Not Started  | ❌ Pending  |
+| `sort`            | Sort lines in a file                  | ❌ Not Started  | ❌ Pending  | 
+| `uniq`            | Remove duplicate lines from a file    | ❌ Not Started  | ❌ Pending  | 
 
 ---
 
