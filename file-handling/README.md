@@ -1,4 +1,4 @@
-# File Handling in C - Exploring Commands Implemented Using File Handling Concepts
+# Unix Commands Implementation
 
 This project is a hands-on exploration of advanced file handling concepts in C by recreating common Linux file-related commands. Each command is implemented as a standalone C program, providing insights into file I/O operations and system-level programming.
 
