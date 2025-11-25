@@ -105,7 +105,7 @@ This project is a hands-on exploration of advanced file handling concepts in C b
    git clone https://github.com/ranjankumar555/file-handling-in-c.git
    cd file-handling-in-c
 
-
+<!--
 ## Progress Tracker
 
 | Command Name      | Description                           | Status          | Testing     |
@@ -151,3 +151,4 @@ This project is a hands-on exploration of advanced file handling concepts in C b
 - 🚧 = Work In Progress
 - ❌ = Not Started
 
+-->
