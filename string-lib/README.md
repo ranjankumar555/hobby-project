@@ -8,7 +8,7 @@ This project is a user-defined string library implemented in C. It replicates co
 - Additional utility functions for enhanced string operations
 - Well-structured code with comments for easy understanding
 - Fully tested with examples and test cases
-
+<!--
 ## Progress Tracker
 
 | No. | Task | Status |
@@ -30,7 +30,7 @@ This project is a user-defined string library implemented in C. It replicates co
 | 15 | Implement `my_strlower` | ✅ Completed |
 | 16 | Implement `my_strtrim` | ❌ Not Started |
 | 17 | Implement `my_strsplit` | ❌ Not Started |
-
+-->
 ## Implemented Functions
 ### Standard Functions
 
